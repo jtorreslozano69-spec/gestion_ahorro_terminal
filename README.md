@@ -1,49 +1,45 @@
-**GESTION DE AHORROS**
+# GESTIÓN DE AHORROS AUTOMATIZADO (Versión CLI)
 
-ESTE ES MI PROYECTO AUTOMATIZADO E INTERACTIVO, ESTE CODIGO LO HICE POR PROBLEMAS DE GESTIONAR DE MIS AHORROS LO USE POR UN TIEMPO Y TUVE 
-LA IDEA DE SUBIRLO A MI PORTAFOLIO, PARA DESMONTRAR MI HABILIDAD EN =ARQUITECTURA DE SOFTWARE, LOGICA DE CONTROL DE FLUJOS Y AUTOMATIZACIÓN=
-CODIGO PHYTON PURO
+Este es mi proyecto automatizado e interactivo. Este código lo hice por problemas de gestionar mis ahorros, lo usé por un tiempo y tuve la genial idea de subirlo a mi portafolio para demostrar mi habilidad en **Arquitectura de Software, Lógica de Control de Flujos y Automatización**. Desarrollado en código Python puro.
 
 ---
 
-*¿COMO FUNCIONA EL MOTOR?*
-MI PROGRAMA SIMULA UNA GESTION DE CUENTAS DE AHORROS INTELIGENTES CON UNA AUTOMATIZACIÓN:
+### ¿Cómo funciona el motor?
+Mi programa simula una gestión de cuentas de ahorros inteligentes con una automatización en tiempo real:
 
-**LO PRINCIPAL** :EL USUARIO TIENE QUE INGRESAR UN MONTO Y EL CODIGO LO SUMA DIRECTAMENTE A LA CUENTA *losahorros*
+* **Lo Principal:** El usuario tiene que ingresar un monto y el código lo suma directamente a la cuenta `losahorros`.
+* **Vuelto Automático:** A la misma vez, el 10% de ese monto, con la lógica que puse, se va de forma independiente a la segunda cuenta llamada `Vueltos`.
+  * *Ejemplo:* Si el monto ingresado es de 100 dólares, el 10% de ese monto (que es 10) se calcula y se desvía automáticamente a la cuenta `Vueltos`.
+* **Historial Dinámico:** Mi código procesa y renderiza mediante los bucles un desglose detallado de cada movimiento usando formato dinámico (`f-strings`).
 
-**VUELTO AUTOMATICO** :A LA MISMA VEZ EL 10% DE ESE MONTO CON LA LOGICA QUE PUSE SE VA A LA SEGUNDA CUENTA *VUELTOS*
+---
 
-**EJEMPLO**: EL MONTO ES 100 DOLARES, EL 10% DE ESE MONTO QUE ES 10 SE VA A LA CUENTA *VUELTOS*
+### Habilidades y Técnicas Demostradas
+Cuando revises mi archivo `gestion_ahorro.py`, podrás ver todas las herramientas que implementé:
 
-**HISTORIAL DINAMICA** MI CODIGO PROCESA Y RENDERIZA MEDIANTE LOS BUCLES UN DESGLOSE DETALLADO DE CADA MOVIMIENTO CON FORMATO DINAMICO ("f-strings")
+* **Control de Flujos:** Uso avanzado del comando `while True` coordinado de forma indestructible con comandos de escape (`break`).
+* **Matemática Aplicada:** Operaciones matemáticas en cadena y acumulación independiente de variables directamente en la memoria RAM.
+* **Estructuras Dinámicas:** Manipulación precisa de las listas nativas (`[]`) e inyección de hilos con formato (`f-strings`) para el historial de transacciones.
 
+---
 
-*LAS HABILIDADES Y TECNICAS DEMOSTRADAS*
-CUANDO REVISES MI ARCHIVO "gestion_ahorro.py", PODRAS VER LO QUE IMPLEMENTE QUE ES:
-
-*CONTROL DE FLUJOS*: USO DEL COMANDO ("WHILE TRUE") CONTROLADOS CON COMANDOS DE ESCAPE (BREAK)
-
-*MATEMATICA APLICADA*: OPERACIONES EN CADENA Y ACUMULACION INDEPENDIENTE DE VARIABLES EN LA MEMORIA RAM
-
-*ESTRUCTURAS DINAMICAS*: MANIPULACIÓN DE LAS LISTAS ("[]"), TAMBIEN INYECCIÓN DE HILOS CON ("F-STRINGS") PARA EL HISTORIAL DE TRANSACCIONES
-
-AVISO ANTES DE USAR MI PROGRAMA (CODIGO)
-
+### Aviso importante antes de usar mi programa (Código)
 **Información para Visitantes y Desarrolladores:**
 
-ESTE ES LA VERSION LITE/DEMOSTRATIVA. ESTA VERSIÓN ESTA DISEÑADA PARA EJECUTARSE EN LA TERMINAL Y DE FORMA **VOLÁTIL EN LA MEMORIA RAM**, LO QUE SIGNIFICA QUE LOS DATOS QUE SE PONDRAN EN ESTA VERSIÓN
+* **Naturaleza Volátil:** Esta es la versión *Demostrativa*. Está diseñada para ejecutarse directamente en la terminal y de forma volátil en la memoria RAM. Esto significa que todos los datos que se pongan en esta versión **se eliminarán permanentemente** después de cerrar la terminal o salirse de la aplicación.
+* **Derechos de Autor:** Queda prohibida la redistribución, copia o uso de este código para creaciones de aplicaciones (programas) comerciales ajenas sin mi permiso o autorización expresa.
 
-**SE ELIMINARAN PERMANENTEMENTE** DESPUES DE CERRAR LA TERMINAL O SALIRSE
+---
 
-**DERECHOS DE AUTOR:** QUEDA PROHIBIDO LA REDISTRIBUCIÓN, COPIA O USO DE ESTE CODIGO PARA CREACIONES DE APPS (PROGRAMAS) COMERCIALES AJENAS SIN MI PERMISO O AUTORIZACIÓN EXPRESA
+### ¿Buscas la versión completa llamada AutoAhorro?
+Si te llega a interesar la versión definitiva para usarla en tu día a día, el producto comercial completo incluye:
 
-**¿BUSCAS LA VERSION COMPLETA LLAMADA AUTOAHORRO?**
-SI TE LLEGA A INTERESAR ESTA VERSIÓN PARA USARLA EN TU DÍA A DÍA, EN ESTA VERSIÓN INCLUYE:
+* **Interfaz Virtual Interactiva (GUI):** Ventanas modernas, colores y botones minimalistas creados con la librería CustomTkinter.
+* **Base de Datos Local Permanente (JSON):** Los saldos y el historial completo que tienen las cuentas se quedan grabados para siempre en un archivo JSON en tu computadora mes tras mes.
 
-**INTERFAZ VIRTUAL INTERACTIVO (GUI):** VENTANAS Y BOTONES MINIMALISTAS CREADOS CON *CUSTOMTKINTER*
+---
 
-**BASE DE DATOS LOCAL PERMANENTEMENTE (JSON):** LOS SALDOS E HISTORIAL QUE TIENEN LAS CUENTAS SE GUARDAN PARA SIEMPRE EN EL ARCHIVO JSON EN TU COMPUTADORA MES TRAS MES
+### Contáctame para Propuestas de Desarrollo o Licencias
+Si eres un cliente interesado en adquirir una licencia comercial de la versión Pro, o una empresa/emprendedor que busca hacerme una propuesta de desarrollo a medida para tu negocio, ¡escríbeme directo aquí!:
 
-**CONTACTAME PARA PROPUESTAS DE DESARROLLO O LICENCIAS**
-
-**Correo Electrónico:** jorreslozano69@gmail.com
+* **Correo Electrónico:** [jorreslozano69@gmail.com](mailto:jorreslozano69@gmail.com)
