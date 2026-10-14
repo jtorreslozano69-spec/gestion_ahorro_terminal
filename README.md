@@ -36,10 +36,3 @@ Si te llega a interesar la versión definitiva para usarla en tu día a día, el
 
 * **Interfaz Virtual Interactiva (GUI):** Ventanas modernas, colores y botones minimalistas creados con la librería CustomTkinter.
 * **Base de Datos Local Permanente (JSON):** Los saldos y el historial completo que tienen las cuentas se quedan grabados para siempre en un archivo JSON en tu computadora mes tras mes.
-
----
-
-### Contáctame para Propuestas de Desarrollo o Licencias
-Si eres una persona interesado en adquirir el esa version, o una empresa/emprendedor que busca hacerme una propuesta de desarrollo a medida para tu negocio, ¡escríbeme directo aquí!:
-
-* **Correo Electrónico:** [jorreslozano69@gmail.com](mailto:jorreslozano69@gmail.com)
