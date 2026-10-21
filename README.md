@@ -30,13 +30,15 @@ Cuando revises mi archivo `gestion_ahorro.py`, podrás ver todas las herramienta
 * **Derechos de Autor:** Queda prohibida la redistribución, copia o uso de este código para creaciones de aplicaciones (programas) comerciales ajenas sin mi permiso o autorización expresa.
 
 ---
-### Contacto
-
-* **gmail**: jesustorresl7845@gmail.com
-
 
 ### Hay una versión llamada AutoAhorro que tiene una interfaz virtual
 Si te llega a interesar la versión definitiva para usarla en tu día a día, el producto completo incluye:
 
 * **Interfaz Virtual Interactiva (GUI):** Ventanas modernas, colores y botones minimalistas creados con la librería CustomTkinter.
 * **Base de Datos Local Permanente (JSON):** Los saldos y el historial completo que tienen las cuentas se quedan grabados para siempre en un archivo JSON en tu computadora mes tras mes.
+
+---
+
+### Contacto
+
+* **gmail**: jesustorresl7845@gmail.com
